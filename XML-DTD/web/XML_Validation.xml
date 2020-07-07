@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE marcadores [
+    <!ELEMENT marcadores (pagina)*>
+    <!ELEMENT pagina (nombre,descripcion,url)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+<marcadores>
+    <pagina>
+        <nombre>EPN</nombre>
+        <descripcion>Página Web de la Poli</descripcion>
+        <url>http://www.epn.edu.ec/</url>
+       
+    </pagina>
+    <pagina>
+        <nombre>ESFOT</nombre>
+        <descripcion>Página Web de la ESFOT</descripcion>
+        <url>http://www.esfot.edu.ec/</url>
+    </pagina>
+</marcadores>

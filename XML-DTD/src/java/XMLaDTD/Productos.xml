@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos [
+    <!ELEMENT productos (producto+)>
+    <!ELEMENT producto (identificacion,nombre)>
+    <!ELEMENT identificacion (#PCDATA|codigo|id)*>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<productos>
+    <producto>
+        <identificacion>
+            Quedan 30 unidades.
+            <codigo>VIN456</codigo>
+        </identificacion>
+        <nombre>VINO</nombre>
+    </producto>    
+    
+    <producto>
+        <identificacion>
+            <codigo>ACE987</codigo>
+            <id>6353</id>
+            No hay stock.
+        </identificacion>
+        <nombre>ACEITE</nombre>
+    </producto>  
+</productos>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Agenda SYSTEM 'Agenda.dtd'>
+
+<Agenda>
+    <contacto>
+        <nombre>Erick</nombre>
+        <apellido>Vargas</apellido>
+        <telefono pais="Ecuador">0995361540</telefono>
+        <email>erick.vargas01@epn.edu.ec</email>
+        <direccion>
+            <calle>Cayambe</calle>
+            <numero>237</numero>
+            <cp>145236</cp>
+        </direccion>
+    </contacto>
+
+    
+</Agenda>
