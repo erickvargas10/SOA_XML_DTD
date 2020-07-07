@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT recetas (receta)+>
+<!ELEMENT receta (nombre, tipo,ingredientes, calorias, pasos, dificultad, tiempo, elaboracion)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT tipo EMPTY>
+<!ATTLIST tipo definicion (entrante | primero | segundo | postre) #REQUIRED>
+
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente EMPTY>
+<!ATTLIST ingrediente nombre ID #REQUIRED>
+<!ATTLIST ingrediente cantidad CDATA #REQUIRED>
+
+<!ELEMENT calorias (#PCDATA)>
+
+<!ELEMENT pasos (paso+)>
+<!ELEMENT paso EMPTY>
+<!ATTLIST paso orden ID #REQUIRED>
+
+
+<!ELEMENT dificultad (#PCDATA)>
+
+
+<!ELEMENT tiempo (#PCDATA)>
+
+
+<!ELEMENT elaboracion (#PCDATA)>
+
+
+

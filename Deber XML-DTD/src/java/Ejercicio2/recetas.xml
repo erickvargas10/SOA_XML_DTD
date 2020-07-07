@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE recetas SYSTEM 'recetas.dtd'>
+
+<recetas>
+    <receta>
+        <nombre>Pastel de chocolate</nombre>
+        <tipo definicion="postre"/>
+        <ingredientes>
+            <ingrediente nombre="Harina" cantidad="3kg" />
+            <ingrediente nombre="Azucar" cantidad="1kg" />
+        </ingredientes>
+        <calorias>220</calorias>
+        <pasos>
+            <paso orden= "mezclar "/>
+            <paso orden= "hornear "/>
+            <paso orden= "disfrutar "/>
+        </pasos>
+        <dificultad>Media</dificultad>
+        <tiempo>2 horas</tiempo>
+        <elaboracion>satisfactoria</elaboracion>
+
+    </receta>
+    
+</recetas>
